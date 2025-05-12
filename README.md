@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# 🧠 Word Parse
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> A quick, no-frills tool for dissecting word frequency and context.
 
-## Available Scripts
+**Word Parse** is a lightweight React app that breaks down any block of text into a **frequency-sorted word list**, along with the **surrounding context** (left and right neighbors) of each word, complete with counts.
 
-In the project directory, you can run:
+### 🔗 [Try it live →](https://word-parser.netlify.app)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## ✨ What It Does
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Paste in any chunk of text and instantly get:
 
-### `npm test`
+- 📊 **Word Frequency:** See how often each word appears  
+- 🧭 **Context Windows:** For each word, view the most common words that show up immediately *before* and *after* it  
+- 🗂 **Sorted Breakdown:** Data is cleanly sorted and easy to scan
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+It’s like `ctrl+F` for linguists, writers, and anyone curious about patterns in language.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠 Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React** – Frontend framework
+- **JavaScript** – Parsing and analysis logic
+- **CSS Modules** – Scoped styling
+- **Netlify** – For deployment and hosting
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🧪 Use Cases
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Writers analyzing style or voice  
+- Linguists studying phrase patterns  
+- Developers prototyping NLP tools  
+- Curious humans poking at words because… why not?
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🧱 Status
 
-## Learn More
+Actively hosted at [word-parser.netlify.app](https://word-parser.netlify.app).  
+No backend. No tracking. Just text and logic.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📬 Contact
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made by **[Derrick Gallegos](https://www.linkedin.com/in/derrickgallegos/)**  
